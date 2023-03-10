@@ -3,8 +3,8 @@ body {
 }
 
 .backdrop {
-    width: 210mm;
-    height: 297mm;
+    width: 8.5in;
+    height: 11in;
     padding: 1rem 2rem;
 }
 
@@ -77,6 +77,10 @@ code {
 
 /* ------------------------------------------------------ */
 
+.section {
+    margin-top: 0.5rem !important;
+}
+
 .text-content {
     font-size: 10pt;
     line-height: 0.99rem;
@@ -84,13 +88,14 @@ code {
 
 .text-section-header {
     font-size: 10pt;
-    background-color: #cfd8dc;
+    /* background-color: #cfd8dc; */
     padding: 0.3rem 0.8rem;
-    border-radius: 10rem;
+    /* border-radius: 10rem; */
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1mm;
     font-weight: 600;
+    border-bottom: 2px solid black;
 }
 
 ul {
